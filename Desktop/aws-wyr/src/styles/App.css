@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Centering the main container */
+#root {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Question Styling */
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+/* Button Container */
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+/* Button Styling */
+button {
+  width: 100%;
+  max-width: 250px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Option 1 Button */
+.btn-1 {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-1:hover {
+  background-color: #0056b3;
+}
+
+/* Option 2 Button */
+.btn-2 {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-2:hover {
+  background-color: #a71d2a;
+}
